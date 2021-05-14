@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  background-color: rgb(224, 224, 224);
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+h1{
+  position: relative;;
+}
+
+h1::before{
+  position: absolute;
+  content: '';
+  width: 50%;
+  top: 110%;
+  left: 25%;
+  height: 10%;
+  transition: all 1s linear;
+  background-color: rgb(15, 139, 255);
+}
+
+h1:hover::before{
+  width: 100%;
+  left: 0%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  font-weight: bolder;
+}
+
+input[type="text"]{
+  border: 0;
+  outline: none;
+  margin-left: 10px;
+  height: 30px;
+  font-size: 14px;
+}
+
+button{
+  border: 0;
+  outline: none;
+  background-color: rgb(15, 139, 255);
+  color: white;
+  margin-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  letter-spacing: 1px;
+transition: all 0.4s linear;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px 0px 0px;
+}
+
+.para-container{
+  flex-basis: 50%;
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+  html{
+    font-size: 14px;
+  }
+
+  .heading{
+    display: block;
+  }
+
+  .para-container{
+    flex-basis: 70%;
+  }
+ 
+}
+
+

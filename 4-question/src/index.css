@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  background-color: purple;
+
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  flex-basis: 30%;
+  margin: 20px;
+}
+
+.content{
+  flex-basis: 60%;
+}
+
+
+
+.question-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  margin:20px 0px;
+  padding:0px 20px;
+  box-shadow: 0px 0px 5px 5px rgb(219, 219, 219);
+}
+
+.btn{
+  border-radius: 50px !important;
+  background-color: rgb(231, 176, 194) !important;
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+
+
+  .container{
+    height: auto;
+    margin: 30px 0px;
+  }
+
+  .box{
+    width: 80%;
+  } 
+
+  .title{
+    flex-basis: 90%;
+  }
+
+  .content{
+    flex-basis: 90%;
+    margin: 20px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+
+
+  .container{
+    margin: 30px 0px;
+  }
+
+  .box{
+    width: 80%;
+  } 
+
+  .title{
+    flex-basis: 90%;
+  }
+
+  .content{
+    flex-basis: 90%;
+    margin: 20px;
+  }
+  
+}
