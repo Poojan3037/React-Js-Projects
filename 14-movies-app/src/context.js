@@ -163,7 +163,7 @@ const AppProvider = ({ children }) => {
 
         let arr=generId.split(',');
 
-        let newArr3=arr.filter((item)=>item!==id)
+        let newArr3=arr.filter((item)=>item!=id)
         newArr3=String(newArr3);
         setGenerId(newArr3)
 
@@ -209,7 +209,7 @@ const AppProvider = ({ children }) => {
 
         let arr=generTVId.split(',');
 
-        let newArr3=arr.filter((item)=>item!==id)
+        let newArr3=arr.filter((item)=>item!=id)
         newArr3=String(newArr3);
         setGenerTVId(newArr3)
 
@@ -220,10 +220,6 @@ const AppProvider = ({ children }) => {
         setSelectedTVGeners(newArr2)
 
     }
-
-
-
-
 
     useEffect(() => {
         loadData();
