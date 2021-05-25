@@ -167,10 +167,10 @@ const AppProvider = ({ children }) => {
         newArr3=String(newArr3);
         setGenerId(newArr3)
 
-        let newArr=selectedGeners.filter((item)=>item.id===id)
+        let newArr=selectedGeners.filter((item)=>item.id==id)
         setUnSelectedGeners([...unSelectedGeners,newArr[0]])
 
-        let newArr2=selectedGeners.filter((item)=>item.id!==id)
+        let newArr2=selectedGeners.filter((item)=>item.id!=id)
         setSelectedGeners(newArr2)
 
     }
@@ -213,10 +213,10 @@ const AppProvider = ({ children }) => {
         newArr3=String(newArr3);
         setGenerTVId(newArr3)
 
-        let newArr=selectedTVGeners.filter((item)=>item.id===id)
+        let newArr=selectedTVGeners.filter((item)=>item.id==id)
         setUnSelectedTVGeners([...unSelectedTVGeners,newArr[0]])
 
-        let newArr2=selectedTVGeners.filter((item)=>item.id!==id)
+        let newArr2=selectedTVGeners.filter((item)=>item.id!=id)
         setSelectedTVGeners(newArr2)
 
     }
