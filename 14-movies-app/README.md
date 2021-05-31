@@ -11,6 +11,12 @@ Movies Page
 
 https://user-images.githubusercontent.com/82094906/120195257-29cc1900-c23c-11eb-98a1-7e7af751e2d1.mp4
 
+Web Series Page
+
+
+https://user-images.githubusercontent.com/82094906/120195435-6b5cc400-c23c-11eb-9e56-7c31954a2d0b.mp4
+
+
 
 
 Search Page
