@@ -1,3 +1,6 @@
-link "https://clone-52d09.web.app/"
+webiste link "https://clone-52d09.web.app/"
 
-link "https://clone-52d09.firebaseapp.com/"
+or
+
+
+website link "https://clone-52d09.firebaseapp.com/"
