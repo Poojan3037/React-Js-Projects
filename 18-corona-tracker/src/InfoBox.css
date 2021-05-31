@@ -1,0 +1,45 @@
+.card-red{
+    border-top: 10px solid rgb(204, 16, 52);
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+
+.card-green{
+    border-top: 10px solid #7dd71d;
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+
+.h2{
+    font-size: 25px !important;
+}
+
+.h2-time{
+    font-size: 17px !important;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .card-red{
+        width: 300px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .card-green{
+        width: 300px;
+        margin: 10px 10px 0px 10px ;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .card-red{
+        /* width: 240px; */
+        margin: 10px 10px 0px 10px;
+    }
+
+    .card-green{
+        /* width: 240px; */
+        margin: 10px 10px 0px 10px ;
+    }
+}

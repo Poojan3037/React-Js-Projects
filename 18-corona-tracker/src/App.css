@@ -1,0 +1,124 @@
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_left{
+    width: 70%;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img>img{
+    width: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.header-corona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__dropdown{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.app_right{
+    border-radius: 10px !important;
+}
+
+h3{
+    letter-spacing: 1px;
+}
+
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .app{
+        padding: 0;
+    }
+
+    .app_left{
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .header-img>img{
+        width: 50px;
+    }
+
+    .header-dropdown{
+        margin-left: 10px;
+    }
+    
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .app_right{
+        padding: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .app{
+        padding: 0;
+    }
+
+    .app_left{
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .header-img>img{
+        width: 50px;
+    }
+
+    .header-dropdown{
+        margin-left: 10px;
+    }
+    
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .app_right{
+        padding: 10px;
+    }
+
+}
