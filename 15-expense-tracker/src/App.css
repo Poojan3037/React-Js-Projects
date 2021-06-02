@@ -1,0 +1,51 @@
+.app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.left_app{
+    width: 30%;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.center_app{
+    width: 25%;
+    margin: 30px;
+}
+
+.right_app{
+    width: 30%;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .center_app{
+        order: 1;
+        width: 100%;
+    }
+
+    .left_app{
+        width: 100%;
+        order: 2;
+    }
+
+    .right_app{
+        width: 100%;
+        order: 3;
+       
+    }
+}

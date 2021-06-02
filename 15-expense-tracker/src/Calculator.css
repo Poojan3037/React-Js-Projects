@@ -1,0 +1,132 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f2f2f2;
+    letter-spacing: 1px;
+}
+
+.calculator_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.calculator_balance>h3{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.calculator_balance>h1{
+    margin: 0;
+}
+
+.calculator_total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px grey;
+}
+
+.income{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-right: 1px solid gray;
+}
+
+.income>h3{
+    margin: 0;
+}
+
+.income>h3>span{
+    color: #339933;
+
+}
+
+.expense{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-left: 1px solid gray;
+}
+
+.expense>h3{
+    margin: 0;
+}
+
+.expense>h3>span{
+    color: #e60000;
+}
+
+.calculator_history{
+    width: 100%;
+}
+
+.history_title{
+    padding: 10px 0px;
+    border-bottom:1px solid black;
+}
+
+.history_box{
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.history_box::-webkit-scrollbar{
+    overflow:hidden;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5px;
+    margin: 10px 0px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px grey;
+}
+
+.green{
+    border-left: 7px solid #339933;
+
+}
+
+.red{
+    border-left: 7px solid #e60000;
+}
+
+.history>h4{
+    margin: 2px;
+}
+
+.calculator_new_transaction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.calculator_input{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+}
+
+.calculator_button{
+    background-color: white !important;
+}
