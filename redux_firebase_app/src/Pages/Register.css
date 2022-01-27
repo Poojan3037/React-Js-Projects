@@ -1,0 +1,16 @@
+.register-form {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 100px !important;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    .register-form {
+        width: 80%;
+    }
+}
