@@ -1,0 +1,22 @@
+.meal-list-container {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal-list {
+    width: 70%;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 30px;
+
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .meal-list-container {
+        margin: 70px 0px 0px 0px;
+    }
+
+}

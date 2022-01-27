@@ -1,0 +1,72 @@
+.modal-meal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(119, 1, 1);
+    border-bottom: 2px solid brown;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.modal-meal-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    font-weight: bold;
+}
+
+.modal-meal-left-name>h2 {
+    margin: 5px 0px;
+}
+
+.modal-meal-left-name>p {
+    font-size: 0.9rem;
+    margin: 5px 0px;
+
+}
+
+.modal-meal-left-repeat {
+    align-self: flex-end;
+    width: 30px;
+}
+
+
+.modal-meal-left-repeat>p {
+    border: 1px solid grey;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-meal-right {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-meal-right>button {
+    width: 40px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid rgb(119, 1, 1);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.modal-meal-right>button:hover {
+    cursor: pointer;
+    background-color: rgb(119, 1, 1);
+    color: white;
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .modal-meal-right {
+        width: 90px;
+    }
+}

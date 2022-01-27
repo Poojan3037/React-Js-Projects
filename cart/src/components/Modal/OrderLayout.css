@@ -1,0 +1,54 @@
+.order-layout {
+    width: 70%;
+}
+
+.order-layout-controller {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-layout-controller>input {
+    height: 1.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(119, 1, 1);
+    outline: none;
+    margin: 5px 0px;
+    padding: 5px 10px;
+
+}
+
+.order-layout-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-layout-action>button {
+    background-color: rgb(119, 1, 1);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 0.9rem;
+    transition: 0.4s ease-in-out;
+    border: 2px solid rgb(119, 1, 1);
+    margin-left: 10px;
+}
+
+.order-layout-action>button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(119, 1, 1);
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .order-layout {
+        width: 100%;
+    }
+
+    .order-layout-controller>input {
+        height: 1rem;
+    }
+}
