@@ -1,0 +1,21 @@
+.map{
+    height: 450px;
+}
+
+.leafletmap{
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.popup-flag{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popup-name{
+    margin: 5px;
+    font-size: 20px;
+}

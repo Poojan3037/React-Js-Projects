@@ -1,0 +1,37 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.checkout-left{
+    width: 70%;
+}
+
+.checkout-right{
+    width: 30%;
+}
+
+.checkout-add{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout-title>h1{
+    padding: 10px;
+    border-bottom:1px solid grey ;
+}
+
+@media screen and (max-width:640px) and (min-width:360px) {
+    .checkout-right{
+        order: 2;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    
+    .checkout-left{
+        width: 100%;
+        order: 1;
+    }
+}
